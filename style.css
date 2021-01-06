@@ -1,0 +1,213 @@
+body{
+font-family: 'Roboto', sans-serif;
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    margin-left:950px;
+}
+li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.Head{
+    width: 100%;
+    height: 500px;
+}
+p{
+color: gray;
+text-align: justify;
+}
+span{
+    color: tomato;
+    font-size: 40px;
+}
+.half-width{
+    width: 35%;
+    height: 300px;
+    float: left;
+    padding:50px 100px;
+    
+}
+.half-width img{
+    height: 400px;
+    width: 90%;
+}
+.half-width h1{
+    color: darkblue;
+    font-size: 40px;
+    }
+    
+    .half-width span{
+        color: tomato;
+        font-size: 55px;
+    }
+    
+    
+    
+    .half-width p{
+        margin-bottom: 50px;
+    }
+
+    .about{
+        width: 100%;
+        height: 500px; 
+        background-color: blanchedalmond;
+    }
+
+.work{
+    width: 100%;
+    height: 700px;  
+    padding-top:50px;
+    background-color: rgba(0,0,0,0.05);
+}
+.wk-head{
+color: darkblue;
+font-size: 40px;
+margin-left: 480px;
+}
+
+.work h2{
+    color: rgb(77, 10, 122);
+}
+.one-third{
+    width: 25%;
+    height: 380px;
+    padding: 1%;
+    float: left;
+    border-radius: 10px;
+    margin-right: 2%;
+    box-shadow: 10PX 10PX 40PX gray;
+    background-color: white;
+
+}
+
+
+.one-third img{
+    height: 250px;
+    width: 99%;
+}
+.left-border{
+    margin-left: 100px;
+}
+
+.inquery{
+    height: 300px;  
+    width: 100%;
+    margin: 100px 0%;
+}
+.total-inquery{
+width: 65%;
+height: 70%;
+margin-left: 15%;
+padding: 10px 75px;
+border: 2px solid blanchedalmond;
+border-radius: 20px;
+background-image: url(img/bg1.png);
+}
+.half-query{
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+}
+.half-query h2{
+    font-size: 45px;
+    color: white;
+}
+.chat{
+    
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+
+.link{ 
+    text-decoration: none;
+    padding: 20px 50px ;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    color: white;
+    font-weight: bold;
+}
+
+.service{
+    width: 100%;
+    height: 700px;  
+    padding-top:50px;
+    background-color: rgba(243, 241, 242, 0.089);
+}
+.service h1{
+    width: 20%;
+    padding-left: 40px;
+    color: darkblue;
+    font-size: 40px;
+    margin-left:580px;
+    border-bottom: 5px solid darkblue;
+}
+.service img{
+    height:200px ;
+    width:200px;
+    border-radius: 10px;
+}
+.serv-1{
+    width: 25%;
+    height: 380px;
+    padding: 1%;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 10PX 10PX 20PX rgb(206, 198, 198);
+    background-color: white;
+}
+
+#soft{
+    border-left: 7px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(salmon, rgb(249, 71, 255));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.service h2{
+    color: rgb(255, 173, 80);
+}
+
+#web{
+    
+    border-bottom: 7px solid;
+    border-image: linear-gradient(45deg,rgb(114, 250, 198), rgb(249, 71, 255));
+    border-image-slice: 1;
+}
+
+
+#seo{
+    border-right: 7px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(salmon, rgb(249, 71, 255));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.link2{ 
+    text-decoration: none;
+    padding: 20px 20px ;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    color: white;
+    font-weight: bold;
+  
+}
+
+
+
+.footer{
+    text-align: center;
+}
+
+.footer h3{
+    color: grey;
+}
